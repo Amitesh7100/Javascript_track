@@ -51,3 +51,23 @@ console.log(Object.values(appleUser));
 console.log(Object.entries(appleUser));
 
 console.log(appleUser.hasOwnProperty('isLoggedIn'));
+
+const course={
+    coursename :"jsmastery",
+    courseinstructor:"john",
+    price: 111
+}
+
+//course.courseinstructor
+
+const {courseinstructor: instructor} = course
+//console.log(courseinstructor);
+console.log(instructor);
+
+//{
+ //  "name":"amitesh",
+    //"coursename": "js",
+    //"price" : "free"
+//}
+
+
